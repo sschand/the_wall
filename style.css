@@ -1,0 +1,76 @@
+.container{
+	padding: 2%;
+}
+.main{
+	margin-top: 100px;
+	padding: 0% !important;
+}
+
+form textarea{
+	height: 5em;
+}
+input.red, textarea.red{
+	border: 2px solid red;
+}
+.error{	
+	color: red;
+}
+.success{	
+	color: green;
+}
+#header{
+	border-bottom: .15em solid #81807C;
+	width:100%;
+   	position: fixed;
+   	height: 50px;
+   	background: white;
+  	background-size: 100% 100px;
+   	padding-top: 1%;
+    top: 0;
+    z-index: 1;
+    /*
+   	background-image: url("GWC.jpg");
+   	background-repeat: no-repeat;
+   	max-width: 100%;
+   	height: 10%;
+  	background-size: cover;
+  	background-position: center;
+	color: white;
+   	
+   	*/
+   	
+}
+#post_message,.comment_form .button{
+	float: right;
+}
+.message{
+	margin-left: 2em;
+}
+.comment{
+	margin-left: 4em;
+}
+.comment_form{
+	margin-left: 30px;
+	padding-top: 1%;
+}
+.comment_form .button{
+	color: white;
+	background-color: green; 
+    border-color: green; 
+}
+.message_row{
+	padding-bottom: 3%;
+}
+.container div.comments{
+	margin-left: 2em;
+}
+.name_date{
+	font-style: italic;
+}
+input.delete_message.button,input.delete_comment.button {
+	/*background-color: #411E59;
+	/*background-color: #A5A5A5;*/
+	background-color: transparent;
+
+    border-color: #411E59;
+}
